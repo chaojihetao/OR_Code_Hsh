@@ -1,0 +1,24 @@
+\ Model CVRP_MTZ_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ in8_0: x080 + x180 + x280 + x380 + x480 + x580 + x680 + x780 + x980
+   + x1080 + x1180 + x1280 = 1
+ in8_3: x083 + x183 + x283 + x383 + x483 + x583 + x683 + x783 + x983
+   + x1083 + x1183 + x1283 = 1
+ demand_constraint_8: x080 + x180 + x280 + x380 + x480 + x580 + x680 + x780
+   + x980 + x1080 + x1180 + x1280 + x081 + x181 + x281 + x381 + x481 + x581
+   + x681 + x781 + x981 + x1081 + x1181 + x1281 + x082 + x182 + x282 + x382
+   + x482 + x582 + x682 + x782 + x982 + x1082 + x1182 + x1282 + x083 + x183
+   + x283 + x383 + x483 + x583 + x683 + x783 + x983 + x1083 + x1183 + x1283
+   + x084 + x184 + x284 + x384 + x484 + x584 + x684 + x784 + x984 + x1084
+   + x1184 + x1284 = 1
+Bounds
+Binaries
+ x080 x180 x280 x380 x480 x580 x680 x780 x980 x1080 x1180 x1280 x081 x181
+ x281 x381 x481 x581 x681 x781 x981 x1081 x1181 x1281 x082 x182 x282 x382
+ x482 x582 x682 x782 x982 x1082 x1182 x1282 x083 x183 x283 x383 x483 x583
+ x683 x783 x983 x1083 x1183 x1283 x084 x184 x284 x384 x484 x584 x684 x784
+ x984 x1084 x1184 x1284
+End

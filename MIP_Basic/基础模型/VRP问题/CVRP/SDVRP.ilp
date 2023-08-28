@@ -1,0 +1,16 @@
+\ Model SDVRP_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ con14_1: - a10 >= 0
+ con14_1: - a11 >= 0
+ con14_1: - a12 >= 0
+ con14_1: - a13 >= 0
+ con2_1: a10 + a11 + a12 + a13 >= 10
+Bounds
+ a10 free
+ a11 free
+ a12 free
+ a13 free
+End

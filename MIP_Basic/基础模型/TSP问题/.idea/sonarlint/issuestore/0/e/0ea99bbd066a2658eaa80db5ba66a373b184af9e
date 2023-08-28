@@ -1,0 +1,15 @@
+
+_python:S2208"GImport only needed names or import the module and then use its members.(ĞØ­å
+mpython:S116"QRename this field "disMatrix" to match the regular expression ^[_a-z][_a-z0-9]*$.(ª©ú›ùÿÿÿÿ
+hpython:S116"QRename this field "customNum" to match the regular expression ^[_a-z][_a-z0-9]*$.(‡ø–µ
+kpython:S116"ORename this field "nodeNum" to match the regular expression ^[_a-z][_a-z0-9]*$.(ªï›ÿúÿÿÿÿ
+lpython:S117"URename this parameter "customNum" to match the regular expression ^[_a-z][a-z0-9_]*$.(¥¶¯Æ
+epython:S1542"MRename function "setData" to match the regular expression ^[a-z_][a-z0-9_]*$.(¥¶¯Æ
+Hpython:S5806*"+Rename this variable; it shadows a builtin.(—É¯úÿÿÿÿ
+lpython:S15428"ORename function "printData" to match the regular expression ^[a-z_][a-z0-9_]*$.(Ï‡óıÿÿÿÿ
+mpython:S117C"VRename this local variable "big_M" to match the regular expression ^[_a-z][a-z0-9_]*$.(à’‰à
+lpython:S3776B"TRefactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.(Ö¸’†
+spython:S117"\Rename this local variable "lenSubRoute" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÛÄ«Ã
+tpython:S117x"XRename this local variable "pltName" to match the regular expression ^[_a-z][a-z0-9_]*$.(‚ªŸøÿÿÿÿ
+gpython:S1542t"ORename function "drawGraph" to match the regular expression ^[a-z_][a-z0-9_]*$.(»Ã–Ú
+Dpython:S1481u"'Remove the unused local variable "fig".(¦¬Ùªıÿÿÿÿ
